@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adivina el número</title>
+</head>
+
+<body>
+    <form id="ingresar-numero">
+        <h2>¿Eres capaz de adivinar el número secreto?</h2>
+        <label for="numero">Ingresa un número entre el 1 y el 100</label>
+        <br>
+        <input type="text" name="numero" id="numero" min="1" max="100">
+        <button type="submit" id="btn">Enviar</button>
+    </form>
+
+    <div id="result"></div>
+    <div id="msg"></div>
+    <script src="./secretNumber.js"></script>
+</body>
+
+</html>
